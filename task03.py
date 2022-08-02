@@ -4,8 +4,8 @@
 """
 n = input("Введите число: ")
 
-nn = int(n+n)
-nnn = int(n+n+n)
+nn = int(n + n)
+nnn = int(n + n + n)
 n = int(n)
 result = n + nn + nnn
-print('{:d}+{:d}+{:d}={:d}'.format(n,nn, nnn,result))
+print('{:d}+{:d}+{:d}={:d}'.format(n, nn, nnn, result))
