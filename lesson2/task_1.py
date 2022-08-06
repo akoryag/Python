@@ -21,5 +21,5 @@ var_float = 1.8
 var_bool = True
 var_err = None
 full_list = [var_int, var_str, var_float, var_bool, var_err]
-for list in full_list:
-    print(f'Значение {list} это {type(list)}')
+for data in full_list:
+    print(f'Значение {data} это {type(data)}')
