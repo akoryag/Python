@@ -39,7 +39,7 @@ while True:
         break
 
     if choice == 'A':
-        print(f'\n Current analytics \n {"*" * 15}')
+        print(f"\n Аналитика \n {'*' * 15}")
         for key, value in analytics_list.items():
             print(f'{key[:10]:>15}: {value}')
             print("_" * 15)
