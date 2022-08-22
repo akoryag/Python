@@ -17,9 +17,9 @@ translate_list = {
 }
 
 conv_rows = []
-with open("task_03.txt") as i:
+with open('task_03.txt', 'r', encoding='utf-8') as i:
     for row in i:
         name, value = row.split(' - ')
         conv_rows.append(f'{translate_list[name]} - {value}')
-with open('task_03_ru.txt', 'w') as o:
+with open('task_03_ru.txt', 'w', encoding='utf-8') as o:
     o.writelines(conv_rows)
